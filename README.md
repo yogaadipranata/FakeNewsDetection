@@ -1,28 +1,37 @@
 ## Fake News Detection using Artificial Neural Network with Pytorch
 
-Fake News Detector is a machine learning-based application designed to identify fake news articles using an Artificial Neural Network (ANN) model implemented with PyTorch. Developed as a final project for the Deep Learning course, this system processes Indonesian news content and classifies it as either real or fake. The project highlights the full machine learning workflow—from data preprocessing and tokenization to model training, evaluation, and deployment via a CLI-based interface.
+Fake News Detection is a machine learning project developed for Final Project 5 in the Web Developer Program at PT Hacktivate Teknologi Indonesia. This project utilizes an Artificial Neural Network (ANN) model built with PyTorch to classify online news articles as real or fake. It includes essential preprocessing techniques such as tokenization, word embedding, and TF-IDF, along with training and evaluation of a custom ANN model using PyTorch. The model was trained on the Fake and Real News Dataset and achieved good classification performance with accuracy, precision, and recall metrics.
 
 ### 🛠️ Tech Stack
 * Python
 * PyTorch
 * Pandas
-* Scikit-learn
-* Matplotlib
-* NumPy
+* scikit-learn
+* Jupyter Notebook
 
 ## 🚀 Usage
 
 ### 💻 Run Locally
 1. Clone the repository:
-```git clone https://github.com/yogaadipranata/WeatherWatch.git```
+```https://github.com/yogaadipranata/FakeNewsDetection.git```
 2. Navigate to the project directory:
-```cd WeatherWatch```
-3. Open index.html in your browser.
-4. Since this is a static web project built with HTML, CSS, JavaScript, and Bootstrap, no additional setup or installations are required.
+```cd FakeNewsDetection```
+3. Launch Jupyter Notebook.
+4. Open FakeNewsDetectionANN.ipynb and run the cells step-by-step.
 
-### 🔗 Live Demo
-You can access the live version of the website here:  
-[https://weatherwatch-project.netlify.app/](https://weatherwatch-project.netlify.app/)
+### 🔗 Model Overview
+* Architecture: Simple feedforward ANN with 3 layers (input, hidden, output)
+* Loss Function: Binary Cross Entropy
+* Optimizer: Adam
+* Evaluation Metrics: Accuracy, Precision, Recall, F1-Score
+
+### 📊 Results
+Evaluation on the test set shows the model achieved the following performance:
+* Accuracy: 0.94
+* Precision: 0.94
+* Recall: 0.94
+* F1-Score: 0.94
+These metrics indicate strong classification performance and model generalization capability.
 
 ## 🤝 Contributing Guidelines
 1. Fork the project
