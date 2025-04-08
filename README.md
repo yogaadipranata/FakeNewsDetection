@@ -30,7 +30,7 @@ Evaluation on the test set shows the model achieved the following performance:
 * Accuracy: 0.94
 * Precision: 0.94
 * Recall: 0.94
-* F1-Score: 0.94
+* F1-Score: 0.94 </br>
 These metrics indicate strong classification performance and model generalization capability.
 
 ## 🤝 Contributing Guidelines
