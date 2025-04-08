@@ -1,6 +1,6 @@
 ## Fake News Detection using Artificial Neural Network with Pytorch
 
-Fake News Detection is a machine learning project developed for Final Project 5 in the Web Developer Program at PT Hacktivate Teknologi Indonesia. This project utilizes an Artificial Neural Network (ANN) model built with PyTorch to classify online news articles as real or fake. It includes essential preprocessing techniques such as tokenization, word embedding, and TF-IDF, along with training and evaluation of a custom ANN model using PyTorch. The model was trained on the Fake and Real News Dataset and achieved good classification performance with accuracy, precision, and recall metrics.
+Fake News Detection is a machine learning project developed for Final Project in Machine Learning Course. This project utilizes an Artificial Neural Network (ANN) model built with PyTorch to classify online news articles as real or fake. It includes essential preprocessing techniques such as tokenization, word embedding, and TF-IDF, along with training and evaluation of a custom ANN model using PyTorch. The model was trained on the Fake and Real News Dataset and achieved good classification performance with accuracy, precision, and recall metrics.
 
 ### 🛠️ Tech Stack
 * Python
