@@ -1,12 +1,14 @@
 ## Fake News Detection using Artificial Neural Network with Pytorch
 
-Weather Watch is a weather forecasting website developed for Final Project 4 in the Web Developer Program at PT Hacktivate Teknologi Indonesia. It provides current weather data, a five-day forecast, and automatic location detection when the website is accessed. This project was built to meet specific functional criteria, combining real-time data integration with user-friendly design and geolocation features.
+Fake News Detector is a machine learning-based application designed to identify fake news articles using an Artificial Neural Network (ANN) model implemented with PyTorch. Developed as a final project for the Deep Learning course, this system processes Indonesian news content and classifies it as either real or fake. The project highlights the full machine learning workflow—from data preprocessing and tokenization to model training, evaluation, and deployment via a CLI-based interface.
 
 ### 🛠️ Tech Stack
-* HTML
-* CSS
-* JavaScript
-* Bootstrap
+* Python
+* PyTorch
+* Pandas
+* Scikit-learn
+* Matplotlib
+* NumPy
 
 ## 🚀 Usage
 
